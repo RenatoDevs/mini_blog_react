@@ -1,0 +1,44 @@
+.home,
+.grid_posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  flex-direction: column;
+  width: 100%;
+  gap:10px;
+  padding: 30px 0;
+}
+.grid_posts{
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+}
+.search_form {
+  max-width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.search_form input {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+}
+
+.noposts a {
+  padding: 10px 25px;
+}

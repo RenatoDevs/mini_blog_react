@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.full{
+    min-height: 70vh;
+}
+.medium{
+    min-height: 40vh;
+}
